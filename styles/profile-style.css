@@ -15,11 +15,19 @@ body {
 
 .scroll{
     width: 100%;
-    overflow-x: scroll;
     display: flex;
     justify-content: center;
 }
-
+.scroll>a{
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    color: #2b2c30;
+    background-color: beige;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
 h1{
     width: 100%;
     text-align: center;
